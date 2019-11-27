@@ -1,11 +1,13 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+by : Miguel Crisantos
 
 ---
-## Git vs. GitHub
+### Git vs. GitHub
 
+_What is Git?_
 
+**Git** is a command line based system which allows users 
 
 ---
 ## Initial Setup
