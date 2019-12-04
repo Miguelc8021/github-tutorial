@@ -27,14 +27,36 @@ We have two different options when we sept up our Ide, these options are Https &
 ---
 ## Repository Setup
 
+Repositories are made on Git, so what we want to do is...
+1. Choose the directory that you would like to make a respository in 
+2. You want to type in the command 'git init', which initializes git
+3. Now you want to make a file using the command `touch (filename)`
+4. Now we want to add some text into our file, so we must use to command `c9 (filename)`
+5. Once we have added text, we must add it. Let's use the command `git add `
+6. We're ready to commit these changes, Use the command `git commit -m "commit message" `
+7. Finally let's use the command `git push`.
+
+
 Repositories are presented on Github, so what we want to do is..
-1. log into our Github account on Github
+1. Go to Github.com & log in with the account you have made earlier 
+2. In the far right of our screen we'll see a "+" symbol, click on that & click on the "New Repository" option.
+3. We must give our Github repository the same name as the repository on our Ide.
+4. Once our repository is made, we should copy the SSH.
+5. Once the SSH is copied, we can paste it into our Ide.
+6. Now we are able to push our lines of code to Github.
 
 
 ---
 ## Workflow & Commands
 
-
+The workflow order of Git is...
+1. Make changes to your text file
+2. `git status`
+3. `git add .`
+4. `git commit -m "commit message" `
+5. `git push`
+6. **REPEAT**
 
 ---
 ## Rolling Back Changes
+
