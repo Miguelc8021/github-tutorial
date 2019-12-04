@@ -68,3 +68,6 @@ Use can simply use `git revert SHA`
 
 When you use this command you should first type the command `git log` to see the commits you have made. You will see a set of number & letters, now based on the commit you want to revisit, copy it's certain number & letters. By doing this, the changes of a certain commit will be brought back and all the new commits will be delete.
 
+To undo a commit and add, we can use the command `git reset HEAD~1`.  This command will take you back to the previous commit, **but** leaves the changes that you have made.  It unstages the commit that you have made.
+
+If we can to completely remove a commit, we can use the command `git reset --hard HEAD~1`. This will completely the current commit and leave no mark of it behind.  It will be completely gone, so make sure you think correctly before doing this command.
