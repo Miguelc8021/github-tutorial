@@ -60,3 +60,11 @@ The workflow order of Git is...
 ---
 ## Rolling Back Changes
 
+Rolling back changes are a number of commands that you can do just in case you make a mistake.
+
+Let's say you have make a commit in the early stages of your project, a number of commits later you realize that you have made a big silly mistake.  You don't want to start over or delete everything you have written.
+
+Use can simply use `git revert SHA`
+
+When you use this command you should first type the command `git log` to see the commits you have made. You will see a set of number & letters, now based on the commit you want to revisit, copy it's certain number & letters. By doing this, the changes of a certain commit will be brought back and all the new commits will be delete.
+
