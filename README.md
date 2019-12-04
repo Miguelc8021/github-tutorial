@@ -11,6 +11,7 @@ _What is Git?_
 
 _Git_ is a command line based system which can be used **offline**.  It is more for personal use which doesn't allow for much collaboration.  Users can efficently make and track changes 
 
+_What is Github?_
 
 **Github** is a cloud based system (**online**) where you are able to store your projects, so that people around the world are able to see & take your work then out their own spin on it. Git allows for a lot of **collaboration**.
 
